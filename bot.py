@@ -91,7 +91,7 @@ async def lang(client, message):
 async def start(client, message):
     await message.reply_text(
     text=f"""**Hi {message.from_user.first_name},
-An simple Text To speech bot**""")
+An simple Text To speech bot made by @IET_Owner**""")
 
 
 @tts.on_message(filters.text & ~filters.reply)
